@@ -8,5 +8,5 @@
 </svelte:head>
 
 <div>
-	
+	<Logo/>
 </div>

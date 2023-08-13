@@ -9,7 +9,7 @@ export let password= "";
 	const dispatch = createEventDispatcher();
 
 	function Login (){
-		dispatch('login', { username, password });
+		dispatch('login', {username,password });
 	}
 
 
