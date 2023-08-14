@@ -3,8 +3,6 @@
 	import Header from "../lib/Header.svelte";
 	import Nav from "../lib/Nav.svelte";
 	import "./styles.css";
-  
-	
 
   </script>
 
@@ -12,8 +10,7 @@
 	<Header />
 	<div class="row align-items-center m-0">
 	  <div class="col-2 m-0">
-		<Nav />
-		
+		<Nav />	
 	  </div>
 	  <main class="col-10">
 		<slot />
