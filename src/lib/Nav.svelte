@@ -30,7 +30,7 @@
 	<div class="text-start">
 	  <ul class="nav justify-content">
 		  <li class="nav-item">
-			  <a class="nav-link" href="/">Home</a>
+			  <a class="nav-link" href="/In">Home</a>
 			  <hr/>
 		  </li>
 		  <li class="nav-item">
