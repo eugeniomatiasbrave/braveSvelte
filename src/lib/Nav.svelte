@@ -1,6 +1,8 @@
 <script lang="ts">
 	
-	import "bootstrap/dist/css/bootstrap.min.css"
+	import "bootstrap/dist/css/bootstrap.min.css" 
+    import { base } from '$app/paths';
+
 	import ApiWeather from "./ApiWeather.svelte";
 	import Login from "./Login.svelte";
 	import Logo from "./Logo.svelte";
@@ -30,25 +32,25 @@
 	<div class="text-start">
 	  <ul class="nav justify-content">
 		  <li class="nav-item">
-			  <a class="nav-link" href="/In">Home</a>
+			  <a class="nav-link" href="{base}/In">Home</a>
 			  <hr/>
 		  </li>
 		  <li class="nav-item">
-			  <a class="nav-link" href="/Registro">Registros</a>
+			  <a class="nav-link" href="/braveSvelte/Registro">Registros</a>
 			  <hr/>
 		  </li>
 		  
 		  <li class="nav-item">
-			<a class="nav-link" href="/Vademecum">Vademécum</a>
+			<a class="nav-link" href="{base}/Vademecum">Vademécum</a>
 			<hr/>
 		  </li>
 		  
 		  <li class="nav-item">
-			  <a class="nav-link" href="/Calculador">Calculador de Insulinas</a>
+			  <a class="nav-link" href="{base}/Calculador">Calculador de Insulinas</a>
 			  <hr/>
 		  </li>
 		  <li class="nav-item">
-			  <a class="nav-link" href="/LeyDbt">Ley de DBT</a>
+			  <a class="nav-link" href="{base}/LeyDbt">Ley de DBT</a>
 			  <hr/>
 		  </li>
 		</ul>
