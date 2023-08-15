@@ -35,21 +35,21 @@
 			  <hr/>
 		  </li>
 		  <li class="nav-item">
-			  <a class="nav-link" href="braveSvelte/Registro">Registros</a>
+			  <a class="nav-link" href="/Registro">Registros</a>
 			  <hr/>
 		  </li>
 		  
 		  <li class="nav-item">
-			<a class="nav-link" href="braveSvelte/Vademecum">Vademécum</a>
+			<a class="nav-link" href="/Vademecum">Vademécum</a>
 			<hr/>
 		  </li>
 		  
 		  <li class="nav-item">
-			  <a class="nav-link" href="braveSvelte/Calculador">Calculador de Insulinas</a>
+			  <a class="nav-link" href="/Calculador">Calculador de Insulinas</a>
 			  <hr/>
 		  </li>
 		  <li class="nav-item">
-			  <a class="nav-link" href="braveSvelte/LeyDbt">Ley de DBT</a>
+			  <a class="nav-link" href="/LeyDbt">Ley de DBT</a>
 			  <hr/>
 		  </li>
 		</ul>
