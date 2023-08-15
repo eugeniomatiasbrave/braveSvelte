@@ -8,15 +8,16 @@ const dev = process.argv.includes('dev');
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: vitePreprocess(),
+	
 
 	kit: {
-		
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : process.env.BASE_PATH,
-        }
-	}
-};
+		  base: dev ? '' : process.env.BASE_PATH,
+		}	
+	  },
 
+	  preprocess: vitePreprocess()
+	};
+	
 export default config;

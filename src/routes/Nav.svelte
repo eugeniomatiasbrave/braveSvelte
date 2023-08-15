@@ -1,11 +1,10 @@
 <script lang="ts">
 	
 	import "bootstrap/dist/css/bootstrap.min.css" 
-    import { base } from '$app/paths';
-
-	import ApiWeather from "./ApiWeather.svelte";
-	import Login from "./Login.svelte";
-	import Logo from "./Logo.svelte";
+    
+	import ApiWeather from "../lib/ApiWeather.svelte";
+	import Login from "../lib/Login.svelte";
+	import Logo from "../lib/Logo.svelte";
 	
 	let username:string;
 	let password:string;
@@ -32,25 +31,25 @@
 	<div class="text-start">
 	  <ul class="nav justify-content">
 		  <li class="nav-item">
-			  <a class="nav-link" href="{base}/In">Home</a>
+			  <a class="nav-link" href="/In">Home</a>
 			  <hr/>
 		  </li>
 		  <li class="nav-item">
-			  <a class="nav-link" href="/braveSvelte/Registro">Registros</a>
+			  <a class="nav-link" href="/Registro">Registros</a>
 			  <hr/>
 		  </li>
 		  
 		  <li class="nav-item">
-			<a class="nav-link" href="{base}/Vademecum">Vademécum</a>
+			<a class="nav-link" href="/Vademecum">Vademécum</a>
 			<hr/>
 		  </li>
 		  
 		  <li class="nav-item">
-			  <a class="nav-link" href="{base}/Calculador">Calculador de Insulinas</a>
+			  <a class="nav-link" href="/Calculador">Calculador de Insulinas</a>
 			  <hr/>
 		  </li>
 		  <li class="nav-item">
-			  <a class="nav-link" href="{base}/LeyDbt">Ley de DBT</a>
+			  <a class="nav-link" href="/LeyDbt">Ley de DBT</a>
 			  <hr/>
 		  </li>
 		</ul>

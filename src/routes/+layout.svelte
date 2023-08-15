@@ -1,7 +1,7 @@
 <script>
 	
 	import Header from "../lib/Header.svelte";
-	import Nav from "../lib/Nav.svelte";
+	import Nav from "./Nav.svelte";
 	import "./styles.css";
 
   </script>
