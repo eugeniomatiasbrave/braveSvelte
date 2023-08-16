@@ -1,0 +1,1 @@
+*{margin:0;padding:0;box-sizing:border-box}:root{--font-body: font-family: "Segoe UI";--color-bg-0: #1f293f ;--color-bg-1: #009acd;--color-bg-2: #eceff4;--color-bg-3: #364362;--color-bg-4: #0270ba;--color-text: #eceff4;font-family:var(--font-body);color:var(--color-text)}body{margin:0;background-attachment:fixed;background-color:var(--color-bg-0);background-size:100vw 100vh}

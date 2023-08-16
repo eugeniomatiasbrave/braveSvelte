@@ -1,0 +1,93 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "/Calculador",
+			"dest": "/Calculador/"
+		},
+		{
+			"src": "/Calculador/",
+			"status": 308,
+			"headers": {
+				"Location": "/Calculador"
+			}
+		},
+		{
+			"src": "/In",
+			"dest": "/In/"
+		},
+		{
+			"src": "/In/",
+			"status": 308,
+			"headers": {
+				"Location": "/In"
+			}
+		},
+		{
+			"src": "/LeyDbt",
+			"dest": "/LeyDbt/"
+		},
+		{
+			"src": "/LeyDbt/",
+			"status": 308,
+			"headers": {
+				"Location": "/LeyDbt"
+			}
+		},
+		{
+			"src": "/Registro",
+			"dest": "/Registro/"
+		},
+		{
+			"src": "/Registro/",
+			"status": 308,
+			"headers": {
+				"Location": "/Registro"
+			}
+		},
+		{
+			"src": "/Vademecum",
+			"dest": "/Vademecum/"
+		},
+		{
+			"src": "/Vademecum/",
+			"status": 308,
+			"headers": {
+				"Location": "/Vademecum"
+			}
+		},
+		{
+			"src": "/_app/immutable/.+",
+			"headers": {
+				"cache-control": "public, immutable, max-age=31536000"
+			}
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "/.*",
+			"dest": "/fn"
+		}
+	],
+	"overrides": {
+		"index.html": {
+			"path": ""
+		},
+		"Calculador.html": {
+			"path": "Calculador"
+		},
+		"In.html": {
+			"path": "In"
+		},
+		"LeyDbt.html": {
+			"path": "LeyDbt"
+		},
+		"Registro.html": {
+			"path": "Registro"
+		},
+		"Vademecum.html": {
+			"path": "Vademecum"
+		}
+	}
+}

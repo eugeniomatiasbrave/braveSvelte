@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="." />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.ed1f9d28.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/bootstrap.5075dcec.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/styles.6ad28fba.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Logo.7c947307.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/6.3160e3ea.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.410fd62d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.c24869ec.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.a7fb00ae.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.9c1433c7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.5239af3a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.6593e8b9.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.bfa4e28f.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Logo.801007d1.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/6.cfe6318d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/each.e59479a4.js"><title>Registos de afiliados</title><!-- HEAD_svelte-zblz0f_START --><meta name="description" content="Registos de afiliados"><!-- HEAD_svelte-zblz0f_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="app svelte-w2h4en"><header class="header svelte-1o47m3r"><p class="svelte-1o47m3r">Fecha: 8/16/2023, 6:33:10 PM</p> </header> <div class="row align-items-center m-0"><div class="col-2 m-0"><div><form class="card border-dark text-center svelte-gohy46"><div class="card-header svelte-gohy46" data-svelte-h="svelte-15c1pjt"><p class="text-center svelte-gohy46">Inicio</p></div> <label><input type="text" class="form-control svelte-gohy46" placeholder="Ingresar usuario" required value=""></label> <label><input type="password" class="form-control svelte-gohy46" placeholder="Ingresar contraseña" required value=""></label> <button id="bo" type="button" class="svelte-gohy46" data-svelte-h="svelte-6qpfnk">Iniciar Sesion</button></form> </div></div> <main class="col-10 svelte-w2h4en"> <div><div class="titulo svelte-1fnsw91" data-svelte-h="svelte-170kha5"><h1 class="svelte-1fnsw91">Registros de Afiliados:</h1> <p class="svelte-1fnsw91">Altas, bajas, edición y búsqueda de pacientes.</p></div> <form class="card border-dark text-center svelte-1fnsw91"> <div class="card-header svelte-1fnsw91" data-svelte-h="svelte-1dhv39w"><h6 class="text-center m-0 svelte-1fnsw91">Registro de Afiliados</h6></div> <div class="d-flex justify-content-between mx-2"><div class="pt-2"><button id="bo2" class="svelte-1fnsw91" data-svelte-h="svelte-1nnaikz">Alta Afiliado</button> <div id="modal" class="rounded-top svelte-1fnsw91" style="--display: none;"><form class="card border-dark  svelte-1fnsw91"><div class="card-header svelte-1fnsw91" data-svelte-h="svelte-wjd6ju"><h6 class="m-0 svelte-1fnsw91">Alta de Afiliados</h6></div> <div class="row justify-content-around svelte-1fnsw91"><div class="col-5 "><input type="number" class="form-control mt-2  svelte-1fnsw91" id="inputcredencial" placeholder="Ingresar Credencial" required value=""> <input type="number" class="form-control mt-1 svelte-1fnsw91" id="inputdni" placeholder="Ingresar DNI" required value=""> <input type="text" class="form-control mt-1 svelte-1fnsw91" id="inputnombre" placeholder="Ingresar Nombre y Apellido" required value=""> <input type="text" class="form-control mt-1 svelte-1fnsw91" id="inputobrasocal" placeholder="Ingresar OS" required value=""></div> <div class="col-5"><input type="text" class="form-control mt-2  svelte-1fnsw91" id="inputdx" placeholder="Dx DBT tipo" required value=""> <input type="number" class="form-control mt-1 svelte-1fnsw91" id="inputtel" placeholder="Telefono" required value=""> <input type="text" class="form-control mt-1  svelte-1fnsw91" id="inputfecha_empa" placeholder="Fecha Empa." required value=""> <input type="text" class="form-control mt-1 svelte-1fnsw91" id="inputHbA1c" placeholder="HbA1c" required value=""></div></div> <div class="d-flex my-2 mx-3 gap-1"><button type="submit" id="bo1" class="svelte-1fnsw91" data-svelte-h="svelte-alahb3">Guardar</button> <button type="button" id="bo1" class="svelte-1fnsw91" data-svelte-h="svelte-1ur87cz">Cancelar</button> <button type="reset" id="bo1" value="Reset" class="svelte-1fnsw91" data-svelte-h="svelte-ib2cpe">Reset</button></div></form></div></div> <div class="d-flex pt-2"><input type="number" class="form-control svelte-1fnsw91" placeholder="Nº de Dni"> <button id="bo" class="svelte-1fnsw91" data-svelte-h="svelte-16pmapb">Buscar</button></div></div>  <div class="rounded-top svelte-1fnsw91" id="scroll"><table class="table m-0  svelte-1fnsw91"><thead data-svelte-h="svelte-1k0ybpu"><tr class="svelte-1fnsw91"><th class="col-1 svelte-1fnsw91">Eliminar|Editar</th> <th class=" svelte-1fnsw91">Credencial</th> <th class=" svelte-1fnsw91">Dni</th> <th class=" svelte-1fnsw91">Nombre</th> <th class=" svelte-1fnsw91">OS</th> <th class=" svelte-1fnsw91">Dx</th> <th class=" svelte-1fnsw91">Tel</th> <th class=" svelte-1fnsw91">Fecha_empa</th> <th class=" svelte-1fnsw91">HbA1c</th></tr></thead> <tbody></tbody></table> </div> </form></div></main></div> </div> 
+			
+			<script>
+				{
+					__sveltekit_lb7x2u = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.410fd62d.js"),
+						import("./_app/immutable/entry/app.5239af3a.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 6],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	</body>
+</html>
