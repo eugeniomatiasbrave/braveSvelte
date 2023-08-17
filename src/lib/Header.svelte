@@ -1,7 +1,5 @@
 <script>
-
 import "bootstrap/dist/css/bootstrap.min.css"
-	
 import { time } from '../routes/stores.js';
 
 const formatter = new Intl.DateTimeFormat('en', {
@@ -13,7 +11,6 @@ const formatter = new Intl.DateTimeFormat('en', {
 	minute: '2-digit',
 	second: '2-digit'
 });
-
 </script>
 
 <header class="header">
@@ -33,8 +30,8 @@ const formatter = new Intl.DateTimeFormat('en', {
         padding: 0;
 		margin: 0;
 		border-bottom: 1.5px solid #d0d0d0;
-		
 	}
+
 	p {
 		color: #fbf6f6;
 		font-size: 14px;
