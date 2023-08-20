@@ -160,11 +160,11 @@
 		prevenibles, ❖ pérdida de la sensibilidad en los pulpejos de los dedos por el uso frecuente de
 		la medición de glucosa capilar afectando el desempeño en su actividad laboral (ejemplo músicos)
 		o personas con discapacidad visual que leen Braille. Criterios de suspensión del MG-i, uno o más
-		de los siguientes: ● Cuando la persona con DM1 lo desea. ● Ante reacciones cutáneas asociadas al
-		adhesivo del sensor u otros efectos adversos causados por el dispositivo. ● Paciente que no
+		de los siguientes:  Cuando la persona con DM1 lo desea.  Ante reacciones cutáneas asociadas al
+		adhesivo del sensor u otros efectos adversos causados por el dispositivo.  Paciente que no
 		utilice el sistema al menos el 70% del tiempo, medido a través de las lecturas del sensor. ● Si
 		la tasa de ocurrencia de hipoglucemias nivel 3 y/u otras complicaciones graves sean iguales o
-		mayores a la tasa del año previo al inicio del uso del dispositivo. ● Si el/la paciente utiliza
+		mayores a la tasa del año previo al inicio del uso del dispositivo.  Si el/la paciente utiliza
 		un número de tiras de glucemia capilar similar al que venía usando antes de facilitarle el
 		sensor. Nota: la persona con Diabetes Mellitus tipo 1 beneficiaria del MG-i requiere continuar
 		con la cobertura de 750 tiras reactivas para automonitoreo glucémico (AMG) por año.
