@@ -209,10 +209,10 @@
 		crónica estable diagnosticada por prueba provocadora de isquemia con ejercicio o fármacos,
 		cirugía de revascularización miocárdica o angioplastia previa, y/o internación por angina
 		inestable con cambios en el ECG y/o marcadores serológicos (troponina).
+		Nefropatía diabética: índice de filtrado glomerular estimado igual o menor a 60 ml/min y/o presencia
+		de albuminuria mayor a 30 mg/g por más de 3 meses.
 	</p>
-	<p>
-	 Nefropatía diabética: índice de filtrado glomerular estimado igual o menor a 60 ml/min y/o presencia
-	de albuminuria mayor a 30 mg/g por más de 3 meses. </p>
+	
 	<p>
 		(13) Incluye reflectómetro parlante en aquellas personas con DM y discapacidad visual. La
 		prescripción de los mismos no podrá efectuarse por nombre comercial.
